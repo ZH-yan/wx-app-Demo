@@ -1,0 +1,9 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#8DD144",
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "个人主页",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  }
+}

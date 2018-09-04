@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="indexContainer">
+
+  <image class='avatar' src='{{userInfo.avatarUrl}}'></image>
+
+  <text class='username'>hello {{userInfo.nickName}}</text>
+
+  <!-- 需要使用 button 来授权登录 -->
+  <button style='display: {{isShow?"block":"none"}}' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  
+  <view class='gostudy' catchtap='clickHandle'>
+    <text>Go</text>
+  </view>
+</view>
+
